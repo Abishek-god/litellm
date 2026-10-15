@@ -16,6 +16,42 @@
     "litellm-dashboard": {
       "root": "ui/litellm-dashboard",
       "framework": "nextjs"
+    },
+    "litellm": {
+      "root": ".",
+      "framework": "fastapi"
+    },
+    "anthropic_agent_sdk": {
+      "root": "cookbook/anthropic_agent_sdk",
+      "runtime": "python"
+    },
+    "litellm-ollama-docker-image": {
+      "root": "cookbook/litellm-ollama-docker-image",
+      "runtime": "python"
+    },
+    "livekit_agent_sdk": {
+      "root": "cookbook/livekit_agent_sdk",
+      "runtime": "python"
+    },
+    "enterprise": {
+      "root": "enterprise",
+      "runtime": "python"
+    },
+    "litellm-proxy-extras": {
+      "root": "litellm-proxy-extras",
+      "runtime": "python"
+    },
+    "rust-gateway": {
+      "root": "litellm-rust/crates/gateway",
+      "runtime": "rust"
+    },
+    "litellm-core": {
+      "root": "packaging/litellm-core",
+      "runtime": "python"
+    },
+    "provider": {
+      "root": "terraform/provider",
+      "runtime": "go"
     }
   },
   "rewrites": [
