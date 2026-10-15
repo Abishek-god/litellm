@@ -19,7 +19,9 @@
     },
     "litellm": {
       "root": ".",
-      "framework": "fastapi"
+      "framework": "fastapi",
+      "entrypoint": "litellm/proxy/proxy_server.py",
+      "installCommand": "pip install '.[proxy]'"
     },
     "anthropic_agent_sdk": {
       "root": "cookbook/anthropic_agent_sdk",
