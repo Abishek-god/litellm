@@ -68,6 +68,756 @@
       }
     },
     {
+      "source": "/routes",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/openapi.json",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/docs",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/docs/oauth2-redirect",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/redoc",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/fallback/login",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/liteadmin/slack/connect/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/moyai/connect/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/login(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v3/login(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/session/logout(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/token(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/audit(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/telemetry/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v1/model/info(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v1/model/deprecations(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/access_group/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/router_settings(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/fallbacks(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cache_settings(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cost/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/credentials(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/credential(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/provider/budgets(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/agent/daily/activity/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/test/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/management/v1/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/user_agent(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/active/callbacks(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/callbacks(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/team_callback(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/alerting/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/email/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/add/allowed_ip(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/delete/allowed_ip(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/enterprise/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/memory-usage-in-mem-cache(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/otel-spans(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/lazy/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/in_product_nudges(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/reload/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/schedule/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/settings(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get_logo_url(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get_image(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get_favicon(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/.well-known/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/litellm/.well-known/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/ui_discovery/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/ui-config(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/sso_settings(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/public/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/robots.txt(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/health(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/api/plugins(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/plugin-proxy/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/key/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/key/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/user/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/user/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/team/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/team/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/organization/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/organization/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/customer/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/end_user/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/sso/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/login(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/logout(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/token",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/onboarding/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/oauth/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/invitation/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/jwt/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/model/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/model/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/model_group(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/model_access_group/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/model_hub/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/router/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/router_settings",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/adaptive_router/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/auto_router/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/fallback(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cache_settings",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/coordination_redis/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cost_tracking(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cost_optimization/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/credentials",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/credential",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/provider/budgets",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v2/guardrails/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/budget/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/tag/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/workflow/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/project/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/memory/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/mcp",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/mcp/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/management/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/spend/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/analytics/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/lens",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/lens/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/global/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/usage/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/daily/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/gateway/daily/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/gateway/errors/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cloudzero/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/cache/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/caching/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/debug/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/config/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/settings",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/update/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/upload/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/utils/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get_logo_url",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get_image",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/get_favicon",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/ui-config",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/sso_settings",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/health",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
       "source": "/v1/model/info",
       "destination": {
         "service": "backend"
@@ -128,7 +878,217 @@
       }
     },
     {
-      "source": "/v1/(.*)",
+      "source": "/test",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/api/event_logging/batch",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/chat/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/completions(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/embeddings(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/moderations(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/audio/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/images/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/files(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/batches(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/fine_tuning/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/fine-tuning/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/responses(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/threads(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/assistants(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/vector_stores(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/indexes(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/models(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/messages(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/skills(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/a2a/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/rerank(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v2/rerank(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/decisions(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/systemone(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/ocr(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/rag/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/video(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/videos(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/search(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/containers(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/evals(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/memory(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/realtime(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/v1/live/sessions(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/metrics(.*)",
       "destination": {
         "service": "gateway"
       }
@@ -560,411 +1520,9 @@
       }
     },
     {
-      "source": "/key/(.*)",
+      "source": "/v1/(.*)",
       "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/v2/key/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/user/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/v2/user/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/team/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/v2/team/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/organization/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/v2/organization/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/customer/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/end_user/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/sso/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/login(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/logout(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/token",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/onboarding/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/oauth/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/invitation/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/jwt/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/model/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/v2/model/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/model_group(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/model_access_group/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/model_hub/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/router/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/router_settings",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/adaptive_router/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/auto_router/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/fallback(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/cache_settings",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/coordination_redis/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/cost_tracking(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/cost_optimization/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/credentials",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/credential",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/provider/budgets",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/v2/guardrails/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/budget/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/tag/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/workflow/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/project/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/memory/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/mcp",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/mcp/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/management/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/spend/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/analytics/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/lens",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/lens/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/global/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/usage/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/daily/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/gateway/daily/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/gateway/errors/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/cloudzero/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/cache/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/caching/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/debug/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/config/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/settings",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/update/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/upload/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/utils/(.*)",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/get_logo_url",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/get_image",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/get_favicon",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/ui-config",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/sso_settings",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/health",
-      "destination": {
-        "service": "backend"
+        "service": "gateway"
       }
     },
     {
