@@ -2,11 +2,13 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "gateway": {
-      "root": "gateway",
+      "root": ".",
+      "entrypoint": "gateway/main.py",
       "framework": "fastapi"
     },
     "backend": {
-      "root": "backend",
+      "root": ".",
+      "entrypoint": "backend/main.py",
       "framework": "fastapi"
     },
     "litellm-dashboard": {
@@ -15,18 +17,6 @@
     }
   },
   "rewrites": [
-    {
-      "source": "/v1/(.*)",
-      "destination": {
-        "service": "gateway"
-      }
-    },
-    {
-      "source": "/health/(.*)",
-      "destination": {
-        "service": "gateway"
-      }
-    },
     {
       "source": "/dashboard",
       "destination": {
@@ -37,6 +27,54 @@
       "source": "/dashboard/(.*)",
       "destination": {
         "service": "litellm-dashboard"
+      }
+    },
+    {
+      "source": "/key/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/user/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/team/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/organization/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/management/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/spend/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/v1/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/health/(.*)",
+      "destination": {
+        "service": "gateway"
       }
     },
     {
