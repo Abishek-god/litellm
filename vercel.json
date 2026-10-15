@@ -56,6 +56,12 @@
   },
   "rewrites": [
     {
+      "source": "/debug/memory/summary",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
       "source": "/dashboard",
       "destination": {
         "service": "litellm-dashboard"
@@ -1317,12 +1323,6 @@
     },
     {
       "source": "/metrics",
-      "destination": {
-        "service": "gateway"
-      }
-    },
-    {
-      "source": "/debug/memory/summary",
       "destination": {
         "service": "gateway"
       }
