@@ -30,6 +30,72 @@
       }
     },
     {
+      "source": "/v1/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/chat/completions",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/completions",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/embeddings",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/responses",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/images/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/audio/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/rerank",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/health",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/health/(.*)",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
+      "source": "/metrics",
+      "destination": {
+        "service": "gateway"
+      }
+    },
+    {
       "source": "/key/(.*)",
       "destination": {
         "service": "backend"
@@ -63,18 +129,6 @@
       "source": "/spend/(.*)",
       "destination": {
         "service": "backend"
-      }
-    },
-    {
-      "source": "/v1/(.*)",
-      "destination": {
-        "service": "gateway"
-      }
-    },
-    {
-      "source": "/health/(.*)",
-      "destination": {
-        "service": "gateway"
       }
     },
     {
