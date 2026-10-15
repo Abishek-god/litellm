@@ -9,6 +9,7 @@ and Azure realtime APIs without changing your agent code.
 import asyncio
 import json
 import os
+from urllib.parse import urlsplit
 import websockets
 
 # Configuration
@@ -25,7 +26,9 @@ async def run_voice_agent():
     3. Streams back the response
     """
 
-    url = f"ws://{PROXY_URL.replace('http://', '').replace('https://', '')}/v1/realtime?model={MODEL}"
+    proxy = urlsplit(PROXY_URL)
+    websocket_scheme = "wss" if proxy.scheme == "https" else "ws"
+    url = f"{websocket_scheme}://{proxy.netloc}/v1/realtime?model={MODEL}"
     headers = {"Authorization": f"Bearer {API_KEY}"}
 
     print(f"🎙️  Connecting to voice agent...")
