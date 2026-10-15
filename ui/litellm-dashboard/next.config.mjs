@@ -39,7 +39,6 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: dashboardBasePath,
-  assetPrefix: dashboardBasePath ? "/dashboard/litellm-asset-prefix" : "/litellm-asset-prefix",
   trailingSlash: !devProxyUrl,
   skipTrailingSlashRedirect: Boolean(devProxyUrl),
   turbopack: {
