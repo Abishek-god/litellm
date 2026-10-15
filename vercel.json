@@ -23,7 +23,15 @@
     },
     "anthropic_agent_sdk": {
       "root": "cookbook/anthropic_agent_sdk",
-      "runtime": "python"
+      "runtime": "python",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "gateway",
+          "format": "url",
+          "env": "LITELLM_PROXY_URL"
+        }
+      ]
     },
     "litellm-ollama-docker-image": {
       "root": "cookbook/litellm-ollama-docker-image",
@@ -31,7 +39,15 @@
     },
     "livekit_agent_sdk": {
       "root": "cookbook/livekit_agent_sdk",
-      "runtime": "python"
+      "runtime": "python",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "gateway",
+          "format": "url",
+          "env": "LITELLM_PROXY_URL"
+        }
+      ]
     },
     "enterprise": {
       "root": "enterprise",
